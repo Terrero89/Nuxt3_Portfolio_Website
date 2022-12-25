@@ -7,7 +7,7 @@ definePageMeta({
 </script>
 
 <template>
-  <span>Resume</span>
+  <span>Resumes</span>
   <slot />
 </template>
 <style scoped>
