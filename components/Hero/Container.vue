@@ -1,0 +1,212 @@
+<template>
+  <div
+    class="hero-content border border-light"
+    uk-parallax="target: #hero-img; start: 90vh; end: 10vh; y: -300; easing: 1;"
+  >
+    <div class="hero-text">
+      <span class="hero-greet">Hi there, I'm</span>
+      <h3>Sergio Terrero</h3>
+
+      <h2>I build ideas with code from scratch.</h2>
+
+      <p>
+        I'm a passionate <span>Front-end Developer</span> with the desire to
+        learn, improve and help build ideas. My main focus is to build
+        performant, accessible, and search optimized websites and apps.
+      </p>
+    </div>
+
+    <button type="button" class="btn btn-primary">REsume</button>
+  </div>
+</template>
+
+<script setup></script>
+
+<style scoped>
+/*START REGULAR SCREEN SIZE CSS PROPERTIES */
+.hero-text span {
+  color: #61dbfb;
+}
+
+.hero-img img {
+  height: 100%;
+  width: 360px;
+  border-radius: 5rem;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 13.5vh auto;
+  animation-duration: 1.3s;
+  min-height: 80vh;
+}
+
+.hero-text h3 {
+  font-size: 7.5rem;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+  color: rgba(225, 244, 255, 0.95);
+}
+
+.hero-text h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+  margin: 1.8rem 0;
+  color: rgba(225, 244, 255, 0.7);
+  width: 70rem;
+}
+
+.hero-text p {
+  color: rgba(225, 244, 255, 0.7);
+  font-size: 1.55rem;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  width: 60%;
+}
+
+.hero-text span {
+  font-size: 1.55rem;
+  font-weight: 600;
+}
+.hero-text .hero-greet {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+/*ENDS REGULAR SCREEN SIZE CSS PROPERTIES */
+
+/* ***************************************** */
+/*Media queries for hero section*/
+@media only screen and (max-width: 390px) {
+  .hero-content {
+    padding: 0 0.5rem;
+    /* background-color: rgb(59, 0, 155); */
+    width: 90%;
+  }
+
+  .hero-text h3 {
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-text p {
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+}
+
+/* SEMI SM SCREEN */
+@media only screen and (max-width: 425px) {
+  .hero-content {
+    padding: 0rem;
+    width: 90%;
+    /* background-color:  rgb(99, 58, 58); */
+  }
+
+  .hero-text h3 {
+    font-size: 4.2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 3.1rem;
+    width: 100%;
+    margin: 1.5rem auto;
+    line-height: 3.5rem;
+  }
+
+  .hero-text p {
+    width: 100%;
+
+    line-height: 2.3rem;
+    font-weight: 300;
+  }
+}
+
+/* MD TABLET SCREEN */
+@media only screen and (min-width: 426px) and (max-width: 648px) {
+  .hero-content {
+    /* background-color: rgb(68, 68, 68); */
+    width: 80%;
+  }
+
+  .hero-text h3 {
+    font-size: 4.3rem;
+  }
+
+  .hero-text h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    width: 100%;
+  }
+
+  .hero-text p {
+    width: 98%;
+  }
+}
+
+/* TABLET SCREEN */
+@media only screen and (min-width: 649px) and (max-width: 768px) {
+  .hero-content {
+    width: 86%;
+    /* background-color: rgb(167, 23, 23); */
+  }
+  .hero-text h3 {
+    font-size: 5rem;
+  }
+  .hero-text h2 {
+    font-size: 3.4rem;
+    width: 100%;
+    line-height: 3.5rem;
+  }
+
+  .hero-text p {
+    line-height: 2.5rem;
+
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-content {
+    padding: 0rem;
+    width: 85%;
+    /* background-color: rgb(0, 124, 124); */
+  }
+
+  .hero-text h3 {
+    font-size: 6.1rem;
+  }
+
+  .hero-text h2 {
+    font-size: 4.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .hero-text p {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero-text h3 {
+    font-size: 8.2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  .hero-text p {
+    font-size: 1.75rem;
+    width: 60%;
+  }
+}
+</style>

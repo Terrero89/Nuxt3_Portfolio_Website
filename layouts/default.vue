@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="nav ">Navbar here</div>
+    <UINav />
     <slot />
   </div>
 </template>
@@ -9,7 +9,7 @@
 .nav {
   border: solid red 1px;
   position: sticky;
-  top:0;
+  top: 0;
 }
 .test {
   height: 50vh;

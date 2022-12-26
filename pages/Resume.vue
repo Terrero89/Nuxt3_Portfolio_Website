@@ -1,3 +1,5 @@
+
+
 <script setup>
 definePageMeta({
   layout: "Resume",
@@ -5,12 +7,9 @@ definePageMeta({
 </script>
 
 <template>
-  <span>Resumes Layout</span>
-  <slot />
+  <span>Resume Page</span>
+
 </template>
 <style scoped>
-.test {
-  border: solid white 1px;
-  min-height: 80vh;
-}
+
 </style>

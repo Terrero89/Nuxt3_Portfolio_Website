@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css",
       },
+     
     ],
 
     script: [
@@ -28,6 +29,7 @@ export default defineNuxtConfig({
         rel: "stylesheet",
         src: "https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js",
       },
+   
     ],
   },
 });
