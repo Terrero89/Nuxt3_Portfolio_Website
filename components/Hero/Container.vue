@@ -1,28 +1,38 @@
 <template>
-  <div
-    class="hero-content border border-light"
-    uk-parallax="target: #hero-img; start: 90vh; end: 10vh; y: -300; easing: 1;"
-  >
-    <div class="hero-text">
-      <span class="hero-greet">Hi there, I'm</span>
-      <h3>Sergio Terrero</h3>
+  <section  class="hero-content d-flex flex-column justify-content-center"
+      uk-parallax="target: #hero-img; start: 90vh; end: 10vh; y: -300; easing: 1;">
+    <div
+     
+    >
+      <div class="hero-text">
+        <span class="hero-greet">Hi there, I'm</span>
+        <h3>Sergio Terrero</h3>
 
-      <h2>I build ideas with code from scratch.</h2>
+        <h2>I build ideas with code from scratch.</h2>
 
-      <p>
-        I'm a passionate <span>Front-end Developer</span> with the desire to
-        learn, improve and help build ideas. My main focus is to build
-        performant, accessible, and search optimized websites and apps.
-      </p>
+        <p>
+          I'm a passionate <span>Front-end Developer</span> with the desire to
+          learn, improve and help build ideas. My main focus is to build
+          performant, accessible, and search optimized websites and apps.
+        </p>
+      </div>
+      <button type="button" class="btn btn-primary my-4 ">Resume</button>
     </div>
-
-    <button type="button" class="btn btn-primary">REsume</button>
-  </div>
+   
+  </section>
 </template>
 
 <script setup></script>
 
 <style scoped>
+
+.btn{
+  background-color: rgb(0, 164, 147);
+  border: none;
+  padding: 12px 32px;
+  font-size: 1.8rem;
+}
+
 /*START REGULAR SCREEN SIZE CSS PROPERTIES */
 .hero-text span {
   color: #61dbfb;
@@ -32,13 +42,14 @@
   height: 100%;
   width: 360px;
   border-radius: 5rem;
+  font-size: 3rem;
 }
 
 .hero-content {
   max-width: 900px;
-  margin: 13.5vh auto;
+  margin: 0 auto;
   animation-duration: 1.3s;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .hero-text h3 {
@@ -55,7 +66,7 @@
   line-height: 5rem;
   margin: 1.8rem 0;
   color: rgba(225, 244, 255, 0.7);
-  width: 70rem;
+  /* width: 70rem; */
 }
 
 .hero-text p {
