@@ -8,7 +8,8 @@
   >
     <div class="square">
       <img
-        src=""
+      
+        src="/assets/images/newAr.png"
         data-aos="fade-up"
         data-aos-delay="350"
         data-aos-offset="250"
@@ -19,7 +20,7 @@
 </template>
 
 <script>
-export default {};
+
 </script>
 
 <style scoped>

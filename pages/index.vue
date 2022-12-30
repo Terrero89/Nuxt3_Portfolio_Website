@@ -2,7 +2,7 @@
   <div>
     <Html lang="en">
       <Head>
-        <Title>Portfolio Website</Title>
+        <Title>Sergio Terero | Frontend Web Developer</Title>
         <Meta name="description" content="Portfolio Website home" />
         <Link
           rel="preload"
@@ -13,8 +13,9 @@
     </Html>
     <div class="container">
       <HeroContainer />
-
-      <section class="test">
+      <AboutContainer />
+      <HeroContainer />
+      <!-- <section class="test">
         <div
           class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex"
         >
@@ -26,19 +27,15 @@
             >
               Headline
             </h1>
-              <p
-                uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;"
+            <p
+              uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; end: 50vh + 50%;"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
         </div>
-      </section>
-
-      <section>
-        <AboutContainer/>
-      </section>
+      </section> -->
     </div>
   </div>
 </template>
