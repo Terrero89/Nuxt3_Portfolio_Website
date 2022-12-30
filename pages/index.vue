@@ -12,9 +12,9 @@
       </Head>
     </Html>
     <div class="container">
-      <LazyHeroContainer />
-      <LazyAboutContainer />
-      <LazyHeroContainer />
+      <HeroContainer />
+      <AboutContainer />
+      <HeroContainer />
       <!-- <section class="test">
         <div
           class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex"
